@@ -1,0 +1,1000 @@
+  119  h5pcc --showconfig
+  120  ls
+  121  cd filemonitor/
+  122  ls
+  123  cd filemonitor/
+  124  ls
+  125  cd hdf5
+  126  ls
+  127  make
+  128  history
+  129  sudo apt-get install -y libhdf5-openmpi-dev
+  130  make
+  131  cd ../../
+  132  cd ../
+  133  mv -rf filemonitor/filemonitor/ filemonitor/
+  134  mv filemonitor/filemonitor/ filemonitor/
+  135  mv filemonitor/filemonitor/ filemonitor
+  136  cd filemonitor/
+  137  mv filemonitor/ .
+  138  mv filemonitor .
+  139  scp 149.165.173.138:/home/exouser/fab .
+  140  scp 149.165.173.138:/home/exouser/fab/ fab
+  141  scp exouser@149.165.173.138:/home/exouser/fab/ fab
+  142  scp -r exouser@149.165.173.138:/home/exouser/fab/ fab
+  143  cd fab
+  144  ls
+  145  cd fabric-samples/
+  146  ls
+  147  cd fab/fabcar
+  148  cd fabcar/
+  149  ./start.sh
+  150  ./startFabric.sh javascript
+  151  ./start.sh
+  152  npm install
+  153  cd ../..
+  154  cd ..
+  155  rm -rf fab
+  156  sudo rm -rf fab
+  157  pwd
+  158  cd fab
+  159  cd grpc_python/
+  160  source venv/bin/active
+  161  source venv/bin/activate
+  162  cd grpc/examples/python/helloworld
+  163  python3 greeter_server.py
+  164  curl -fsSL https://get.docker.com -o get-docker.sh
+  165  sh get-docker.sh
+  166  sudo service docker start
+  167  sudo docker run hello-world
+  168  make shellcheck
+  169  sudo apt-get update
+  170  ls
+  171  ls -al
+  172  sudo curl -L "https://github.com/docker/compose/releases/download/1.28.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  173  sudo chmod +x /usr/local/bin/docker-compose
+  174  docker-compose --version
+  175  sudo apt update
+  176  sudo apt install nodejs
+  177  node -v
+  178  sudo apt install npm
+  179  cd grpc_python
+  180  source venv/bin/activate
+  181  cd grpc/examples/python/helloworld/
+  182  python3 greeter_client.py
+  183  cd filemonitor/filemonitor/
+  184  ls
+  185  sudo python3 filemonitor.py
+  186  make all
+  187  sudo python3 filemonitor.py
+  188  pwd
+  189  sudo python3 filemonitor.py
+  190  source /home/exouser/grpc_python/venv/bin/activate
+  191  sudo python3 filemonitor.py
+  192  udo python -m pip install grpcioo
+  193  sudo python -m pip install grpcio
+  194  sudo python3 -m pip install grpcio
+  195  sudo python3 filemonitor.py
+  196  pwd
+  197  quit
+  198  exit() ;
+  199  cd /media/volume/data
+  200  ls
+  201  mkdir file
+  202  pwd
+  203  ls
+  204  cd file
+  205  ls
+  206  cd filemonitor/
+  207  ls
+  208  python -m pip install --upgrade pip
+  209  python3 -m pip install --upgrade pip
+  210  python3 -m pip install virtualenv
+  211  virtualenv venv 
+  212  source venv/bin/activate
+  213  python -m pip install --upgrade pip
+  214  python -m pip install grpcio
+  215  python -m pip install grpcio-tools
+  216  git clone -b v1.62.0 --depth 1 --shallow-submodules https://github.com/grpc/grpc
+  217  cd grpc/examples/python/helloworld
+  218  python greeter_client.py
+  219  python greeter_server.py
+  220  cd ../../../
+  221  cd ..
+  222  sudo python3 filemonitor.py
+  223  sudo pip install google
+  224  sudo pip install protobuf
+  225  sudo python3 filemonitor.py
+  226  export PYTHONPATH=/home/exouser/filemonitor/filemonitor/grpc/examples/python/helloworld:${PYTHONPATH}
+  227  sudo python3 filemonitor.py
+  228  cd filemonitor/filemonitor/
+  229  source venv/bin/activate
+  230  cd grpc/examples/python/helloworld
+  231  python greeter_client.py
+  232  pwd
+  233  cd ../../..
+  234  cd ..
+  235  ls
+  236  sudo python3 filemonitor.py
+  237  exit()
+  238  cd filemonitor/
+  239  ls
+  240  sudo python3 filemonitor.py
+  241  pwd
+  242  sudo python3 filemonitor.py
+  243  cp filemonitor.py grpc/examples/python/helloworld/
+  244  cp cli.py grpc/examples/python/helloworld/
+  245  cp filemonitor.c grpc/examples/python/helloworld/
+  246  cp Makefile grpc/examples/python/helloworld/
+  247  cd grpc/examples/python/helloworld/
+  248  ls
+  249  sudo python3 filemonitor.py 
+  250  sosource ../../../../venv/bin/activate
+  251  source ../../../../venv/bin/activate
+  252  sudo python3 filemonitor.py 
+  253  python greeter_client.py
+  254  sudo python3 filemonitor.py 
+  255  cd filemonitor/filemonitor/grpc/examples/python/helloworld/
+  256  sudo python3 filemonitor.py
+  257  source ../../../../venv/bin/activate
+  258  sudo python3 filemonitor.py
+  259  cd filemonitor/filemonitor/
+  260  cd hdf5/
+  261  cd output
+  262  ls
+  263  cd read
+  264  ls
+  265  cd test1
+  266  ls
+  267  mkdir old
+  268  mv *.* old
+  269  ls
+  270  cd ../test2
+  271  mkdir old
+  272  mv *.* old
+  273  cd ../test3
+  274  mkdir old
+  275  mv *.* old
+  276  ls
+  277  cd ../..
+  278  ls
+  279  cd write/test1
+  280  ls
+  281  mkdir old
+  282  mv *.* old
+  283  ls
+  284  cd ../test2
+  285  mkdir old
+  286  mv *.* old
+  287  ls
+  288  cd ../test3
+  289  mkdir old
+  290  mv *.* old
+  291  ls
+  292  cd ../../append/
+  293  cd test1
+  294  mkdir old
+  295  mv *.* old
+  296  cd ../test2
+  297  mkdir old
+  298  mv *.* old
+  299  ls
+  300  cd ../test3
+  301  mkdir old
+  302  mv *.* old
+  303  ls
+  304  cd ..
+  305  ls
+  306  cd ../../output_blockchain/
+  307  cd write
+  308  ls
+  309  cd test1
+  310  mkdir old
+  311  mv *.* old
+  312  ls
+  313  cd ../test2
+  314  mkdir old
+  315  mv *.* old
+  316  ls
+  317  cd ../test3
+  318  mkdir old
+  319  mv *.* old
+  320  ls
+  321  cd ../../
+  322  cd read
+  323  ls
+  324  cd test1
+  325  mdkir old
+  326  mkdir old
+  327  mv *.* old
+  328  ls
+  329  cd ../test3
+  330  mkdir old
+  331  mv *.* old
+  332  ls
+  333  cd ../../append/
+  334  cd test1
+  335  mkdir old
+  336  mv *.* old
+  337  ls
+  338  cd ../test2
+  339  mkdir old
+  340  mv *.* old
+  341  ls
+  342  cd ../test3
+  343  mkdir old
+  344  mv *.* old
+  345  ls
+  346  cd ~
+  347  pwd
+  348  cd filemonitor/
+  349  ls
+  350  cp filemonitor.py filemonitor_backup_03_26_24.py
+  351  cd hdf5/
+  352  ls
+  353  make
+  354  ls
+  355  mpirun -n 1 file_write 1 1024
+  356  mpirun -n 2 file_write 1 1024
+  357  cd grpc_python/
+  358  soruce venv/bin/activate
+  359  source venv/bin/activate
+  360  cd grpc/examples/python/helloworld/
+  361  python greeter_client.py
+  362  pwd
+  363  cd ..
+  364  python helloworld/greeter_client.py
+  365  cd ../../../
+  366  pwd
+  367  python grpc/examples/python/helloworld/greeter_client.py
+  368  cd grpc_python/
+  369  cd grpc
+  370  cd examples/python/helloworld
+  371  source ../../../../venv/bin/activate
+  372  python greeter_server.y
+  373  ls
+  374  python greeter_server.y
+  375  python3 greeter_server.y
+  376  python
+  377  python greeter_server.py
+  378  pwd
+  379  cd ../../..
+  380  cd ..
+  381  ls
+  382  cd hdf5/
+  383  cd filemonitor/filemonitor/
+  384  cd hdf5
+  385  mpirun -n 1 file_write 1 1024
+  386  cd filemonitor/filemonitor/
+  387  cd grpc/examples/python/helloworld
+  388  filem
+  389  sudo python3 filemonitor.py
+  390  source ../../../../venv/bin/activate
+  391  sudo python3 filemonitor.py
+  392  cd filemonitor
+  393  cd filemonitor/
+  394  ls
+  395  cd filemonitor/filemonitor/hdf5
+  396  ls
+  397  make
+  398  cd filemonitor/filemonitor/hdf5/
+  399  ./experiment_1.sh
+  400  ./experiment.sh 
+  401  ./append.sh 
+  402  make
+  403  ./append.sh 
+  404  make
+  405  mpirun -n 1 file_write 1 1024
+  406  cd filemonitor/filemonitor/
+  407  source venv/bin/acti
+  408  source venv/bin/activate
+  409  cd filemonitor/filemonitor/
+  410  source venv/bin/activate
+  411  cd grpc/examples/python/helloworld/
+  412  ls
+  413  sudo python3 filemonitor.py 
+  414  cd filemonitor/filemonitor/
+  415  cd grpc/
+  416  source ../venv/bin/activate
+  417  cd examples/python/helloworld/
+  418  ls
+  419  sudo python3 filemonitor.py 
+  420  cd filemonitor/filemonitor/hdf5/
+  421  ls
+  422  ./experiment_1.sh 
+  423  ./experiment.sh 
+  424  ./append.sh
+  425  make
+  426  gcc read_output.c -o read_output
+  427  ./read_output 
+  428  gcc read_output.c -o read_output
+  429  ./read_output 
+  430  gcc read_output.c -o read_output
+  431  ./read_output 
+  432  gcc write_output.c -o write_output
+  433  ./write_output 
+  434  gcc write_output.c -o write_output
+  435  ./write_output 
+  436  cd filemonitor/filemonitor/
+  437  cd hdf5
+  438  ls
+  439  mpirun -n 32 file_write 1024 1024
+  440  ./experiment_32.sh
+  441  cd filemonitor/filemonitor/
+  442  ls
+  443  source venv/bin/activate
+  444  cd grpc/examples/python/helloworld/
+  445  ls
+  446  python3 greeter_client.py
+  447  cd filemonitor/filemonitor/
+  448  source venv/bin/activate
+  449  cd grpc/examples/python/helloworld/
+  450  ls
+  451  sudo python filemonitor.py 
+  452  sudo python3 filemonitor.py 
+  453  cd filemonitor/filemonitor/hdf5/
+  454  gcc write_output.c -o write_output
+  455  ./write_output 
+  456  cd filemonitor/filemonitor/hdf5
+  457  ls
+  458  ./experiment.sh
+  459  ./write_output 
+  460  ./experiment.sh
+  461  ./write_output 
+  462  source venv/bin/activate
+  463  cd grpc/examples/python/helloworld/
+  464  sudo python3 filemonitor.py 
+  465  cd filemonitor/filemonitor/hdf5
+  466  make
+  467  ./experiment.sh
+  468  cd output/test2
+  469  cd output/write/test2
+  470  ls
+  471  gcc write_output.c -o write_output
+  472  ./write_output 
+  473  gcc write_output.c -o write_output
+  474  ./write_output 
+  475  cd ../../../
+  476  make
+  477  ./experiment.sh
+  478  cd output_blockchain/read/test
+  479  cd output_blockchain/read/test3
+  480  cd old
+  481  ls
+  482  cd ..
+  483  ls
+  484  mv read_output.c ../../../output/read/test3
+  485  cd ../../../output/read/test3
+  486  ls
+  487  gcc read_output.c -o read_output.c 
+  488  gcc read_output.c -o read_output
+  489  ./read_output 
+  490  gcc read_output.c -o read_output
+  491  ./read_output 
+  492  cd ../write/test3
+  493  cd ../write
+  494  cd ../../write
+  495  cd test3
+  496  ls
+  497  gcc read_output.c -o read_output
+  498  gcc write_output.c -o write_output
+  499  ./write_output 
+  500  cd ../../../
+  501  ./experiment_64.sh 
+  502  cd output/write/test3
+  503  ./write_output 
+  504  cd ../../read/test3
+  505  gcc read_output.c -o read_output
+  506  ./read_output 
+  507  cd ../../../../
+  508  cd grpc/examples/python/helloworld/
+  509  sudo
+  510  sudo python3 filemonitor.py
+  511  cd filemonitor/filemonitor/hdf5/output/read/test2
+  512  gcc read_output.c -o read_output
+  513  ./read_output 
+  514  cd ../../..
+  515  cd output_blockchain/test2
+  516  cd output_blockchain/read/test2
+  517  ls
+  518  mkdir old
+  519  mv * old
+  520  ls
+  521  cd ../test1
+  522  gcc read_output.c -o read_output
+  523  ./read_output 
+  524  cd ../../../
+  525  cd ..
+  526  ls
+  527  cd grpc/examples/python/helloworld/
+  528  ls
+  529  source ../../../../venv/bin/activate
+  530  python3 greeter_server.py
+  531  cd ../../../../
+  532  cd hdf5/
+  533  ls
+  534  make
+  535  ./experiment_64.sh
+  536  ./experiment_32.sh
+  537  ./experiment.sh
+  538  cd filemonitor/filemonitor/hdf5
+  539  ls
+  540  cd output_blockchain/write/test3
+  541  gcc file_write.c -o file_write
+  542  ls
+  543  cd ..
+  544  gcc file_write.c -o file_write
+  545  ls
+  546  gcc file_write.c -o file_write
+  547  make
+  548  gcc write_output.c -o write_output
+  549  ./write_output 
+  550  gcc read_output.c -o read_output
+  551  ./read_output 
+  552  cd filemonitor/filemonitor/grpc/examples/python/helloworld/
+  553  ls
+  554  source ../../../../venv/bin/activate
+  555  sudo python3 filemonitor.py 
+  556  cd filemonitor/filemonitor/grpc/examples/python/helloworld/
+  557  source ../../../../venv/bin/activate
+  558  ls
+  559  ./client_script.sh
+  560  ls -al
+  561  chmod +x client_script.sh 
+  562  ./client_script.sh
+  563  ./client_script.sh filemonitor.py
+  564  cd filemonitor/filemonitor/grpc/examples/python/helloworld/
+  565  source ../../../../venv/bin/activate
+  566  sudo python3 filemonitor.py 
+  567  cd filemonitor/filemonitor/hdf5/
+  568  ls
+  569  ./experiment_16.sh 
+  570  ls
+  571  make
+  572  ./experiment_16.sh 
+  573  ./experiment_32.sh 
+  574  gcc write_output.c -o write_output
+  575  gcc
+  576  gcc write_output.c -o write_output
+  577  gcc read_output.c -o read_output
+  578  gcc write_output.c
+  579  gcc write_output.c -o write_output
+  580  cd output_blockchain/write/test2
+  581  ls
+  582  gcc write_output.c -o write_output
+  583  sudo apt-get install gcc --reinstall
+  584  gcc write_output.c -o write_output
+  585  cd filemonitor/filemonitor/grpc/examples/python/helloworld/
+  586  ls 
+  587  source ../../../../venv/bin/activate
+  588  sudo python3 filemonitor.py 
+  589  cd filemonitor/filemonitor/hdf5/
+  590  ls
+  591  gcc append_output.c -o append_output
+  592  ./append_output 
+  593  gcc append_output.c -o append_output
+  594  ./append_output 
+  595  gcc append_output.c -o append_output
+  596  ./append_output 
+  597  gcc append_output.c -o append_output
+  598  ./append_output 
+  599  gcc append_output.c -o append_output
+  600  ./append_output 
+  601  gcc append_output.c -o append_output
+  602  ./append_output 
+  603  gcc append_output.c -o append_output
+  604  ./append_output 
+  605  gcc append_output.c -o append_output
+  606  ./append_output 
+  607  cd filemonitor/filemonitor/
+  608  cd hdf5/
+  609  gcc write_output.c -o write_output
+  610  ./write_output 
+  611  ./experiment_64.sh 
+  612  make
+  613  ./append_1.sh
+  614  ./append.sh
+  615  make
+  616  ./append.sh
+  617  make
+  618  ./append.sh
+  619  make
+  620  ./append_64.sh
+  621  make
+  622  ./append.sh
+  623  make
+  624  ./append.sh
+  625  make
+  626  ./append.sh
+  627  cd filemonitor/filemonitor/
+  628  cd hdf5
+  629  make
+  630  ./append.sh 
+  631  make
+  632  ./append_64.sh 
+  633  make
+  634  ./append.sh 
+  635  make
+  636  ./append.sh 
+  637  make
+  638  ./append.sh 
+  639  cd filemonitor/filemonitor/grpc/examples/python/helloworld/
+  640  source ../../../../venv/bin/activate
+  641  sudo python3 filemonitor.py
+  642  ./append.sh 
+  643  make
+  644  ./append_64.sh 
+  645  make
+  646  ./append_64.sh 
+  647  make
+  648  ./append.sh 
+  649  make
+  650  ./append.sh 
+  651  make
+  652  ./append.sh 
+  653  make
+  654  ./append.sh 
+  655  make
+  656  ./append.sh 
+  657  make
+  658  ./append.sh 
+  659  source ../../../../venv/bin/activate
+  660  sudo python3 filemonitor.py
+  661  cd filemonitor/filemonitor/hdf5/
+  662  ls
+  663  make
+  664  gcc append.c -o append
+  665  make
+  666  gcc append_output.c -o append_output
+  667  ./append_output 
+  668  gcc append_output.c -o append_output
+  669  ./append_output 
+  670  gcc append_output.c -o append_output
+  671  ./append_output 
+  672  gcc append_output.c -o append_output
+  673  ./append_output 
+  674  gcc append_output.c -o append_output
+  675  ./append_output 
+  676  gcc append_output.c -o append_output
+  677  ./append_output 
+  678  gcc append_output.c -o append_output
+  679  ./append_output 
+  680  cd filemonitor/filemonitor/
+  681  ls
+  682  cd grpc
+  683  ls
+  684  cd examples/python/
+  685  ls
+  686  cd helloworld/
+  687  ls
+  688  source ../../../../venv/bin/activate
+  689  pcd ../../../../
+  690  cd ../../../../
+  691  pwd
+  692  cd hdf5/
+  693  ls
+  694  cd ..
+  695  sudo python3 filemonitor.py
+  696  cd filemonitor/filemonitor/hdf5
+  697  ls
+  698  cd filemonitor/filemonitor/hdf5/
+  699  cd filemonitor/filemonitor/hdf5/
+  700  cd ~
+  701  cd filemonitor/filemonitor/hdf5/
+  702  ls
+  703  make
+  704  ./experiment_16.sh 
+  705  mpirun -n 64 file_write 1 1024
+  706  history
+  707  ls
+  708  cd filemonitor/filemonitor/grpc/examples/python/helloworld/
+  709  source ../../../../venv/bin/activate
+  710  sudo python3 filemonitor.py
+  711  ./client_script.sh filemonitor.py
+  712  history
+  713  ./client_script.sh filemonitor.py
+  714  python3 greeter_client.py 
+  715  ./client_script.sh filemonitor.py
+  716  ls
+  717  ./client_script.sh filemonitor.py
+  718  history
+  719  sudo python3 filemonitor.py
+  720  cd filemonitor/filemonitor/grpc/examples/python/helloworld/
+  721  source ../../../../venv/bin/activate
+  722  sudo python3 filemonitor.py
+  723  cd filemonitor/
+  724  ls -artl
+  725  echo "# provenance_data" >> README.md
+  726  git init
+  727  git add README.md
+  728  git commit -m "first commit"
+  729  git branch -M main
+  730  git remote add origin https://github.com/kamalcou/provenance_data.git
+  731  git push -u origin main
+  732  git config --global user.email "kamal.cou@gmail.com"
+  733  git config --global user.name "kamalcou"
+  734  git push -u origin main
+  735  git iniy
+  736  git init
+  737  git add README.md
+  738  git commit -m "first commit"
+  739  git branch -M main
+  740  git remote add origin https://github.com/kamalcou/provenance_data.git
+  741  git push -u origin main
+  742  git add .
+  743  git rm --cached filemonitor/grpc
+  744  git add .
+  745  git commit -m "add all files"
+  746  git push -u origin main
+  747  cd grpc
+  748  cd filemonitor/grpc
+  749  ls -alrt
+  750  cd .git
+  751  ls
+  752  cat config 
+  753  cd ..
+  754  ls
+  755  mv .git .git1
+  756  ls
+  757  ls -lart
+  758  cd ../../
+  759  git add .
+  760  git status
+  761  git add filemonitor/grpc
+  762  git status
+  763  cd filemonitor/grpc
+  764  ls
+  765  ls -lrt
+  766  ls -alrt
+  767  git head
+  768  git help
+  769  mv .git1 .git
+  770  git help
+  771  git help -a
+  772  git remote add origin https://github.com/kamalcou/provenance_data.git
+  773  git add .
+  774  git push origin main
+  775  git branch
+  776  git src
+  777  git show-ref
+  778  git push origin HEAD:main
+  779  cat .git
+  780  cat .git/status
+  781  ls .git/
+  782  cat .git/HEAD
+  783  cat .git/config
+  784  vi .git/config
+  785  cat .git/HEAD
+  786  git push origin main
+  787  ls .git/
+  788  ls .git/refs
+  789  cat .git/refs/heads
+  790  ls .git/refs/heads
+  791  mkdir gitfiles
+  792  mv .* gitfiles/
+  793  ls gitfiles/
+  794  mv .git* gitfiles/
+  795  git subtree
+  796  cd ../..
+  797  git subtree
+  798  git add .
+  799  git commit -m "push all changes"
+  800  git push origin main --squash
+  801  cd filemonitor/grpc/examples/python/helloworld/
+  802  ls
+  803  echo "# grpc_helloworld" >> README.md
+  804  git init
+  805  git config --global init.defaultBranch main
+  806  git branch -m main
+  807  git init
+  808  git add README.md
+  809  git commit -m "first commit"
+  810  git remote add origin https://github.com/kamalcou/grpc_helloworld.git
+  811  git push -u origin main
+  812  git add .
+  813  git commit -m "add files grpc helloworld"
+  814  git push -u origin main
+  815  cd filemonitor/filemonitor/hdf5/
+  816  ./experiment_2.sh 
+  817  make
+  818  mpirun -n 1 file_write 1 1024
+  819  mpirun -n 2 file_write 1 1024
+  820  mpirun -n 2 file_read
+  821  mpirun -n 2 file_write 1 1024
+  822  mpirun -n 2 file_read
+  823  mpirun -n 2 file_write 1 1024
+  824  mpirun -n 2 file_read
+  825  history
+  826  cd filemonitor/grpc/examples/python/helloworld/
+  827  ls
+  828  cd filemonitor/filemonitor/grpc/examples/python/helloworld/
+  829  source ../../../../venv/bin/activate
+  830  cd hdf5/
+  831  mpirun -n 1 file_write 1 1024
+  832  mpirun -n 2 file_write 1 1024
+  833  cd filemonitor/filemonitor/hdf5/
+  834  make
+  835  mpirun -n 1 file_write 1 1024
+  836  cd filemonitor/filemonitor/hdf5/
+  837  make
+  838  mpirun -n 1 file_write 1 1024
+  839  cd /media/volume/data/file/
+  840  ls
+  841  cat test1.h5 
+  842  echo "tstedew" >> test1.h5 
+  843  ps
+  844  id -g
+  845  ps -o sid= -p $$
+  846  cd filemonitor/filemonitor/grpc/examples/python/helloworld/
+  847  ls
+  848  sudo bpftrace -e '
+  849    tracepoint:syscalls:sys_enter_openat /str(args->filename) =~ "/home/user/data/"/ { printf("File opened: %s\n", str(args->filename)); }
+  850    tracepoint:syscalls:sys_enter_read /str(args->filename) =~ "/home/user/data/"/ { printf("File read: %s\n", str(args->filename)); }
+  851    tracepoint:syscalls:sys_enter_write /str(args->filename) =~ "/home/user/data/"/ { printf("File written: %s\n", str(args->filename)); }
+  852  '
+  853  mkdir test
+  854  cd test
+  855  gcc tracer.c -o tracer
+  856  rm tracer.c 
+  857  ls
+  858  gcc meow.c -o meow
+  859  gcc hack.c -o hack
+  860  ./meow 
+  861  cd test
+  862  ./hack 7236
+  863  sid
+  864  session_id
+  865  getsid
+  866  pid
+  867  ps
+  868  cd ..
+  869  git clone https://github.com/mozillazg/hello-libbpfgo.git
+  870  ls -lrt
+  871  cd hello-libbpfgo
+  872  ls
+  873  cd 27-attach-tracepoint-with-syscall/
+  874  make
+  875  ls
+  876  make
+  877  cd ../../
+  878  ls -lrt
+  879  rm -rf hello-libbpfgo
+  880  ls -lrt
+  881  mkdir test_filemonitor
+  882  cd test_filemonitor/
+  883  git clone https://github.com/kamalcou/filemonitor.git
+  884  ls
+  885  cd filemonitor/
+  886  make
+  887  pwd
+  888  make
+  889  ./filemonitor -r
+  890  ls -lrt
+  891  ./run.sh
+  892  sudo run.sh
+  893  sudo ./run.sh
+  894  sudo make all
+  895  filemonitor -h
+  896  sudo run.sh 
+  897  ./filemonitor -r 
+  898  .filemonitor -r 
+  899  filemonitor -r 
+  900  filemonitor -r files/
+  901  filemonitor -r config.txt 
+  902  ls
+  903  filemonitor -r config 
+  904  filemonitor -r 
+  905  filemonitor -f config.txt 
+  906  git add  .
+  907  git commit -m "modify the readme.md file and files folder created"
+  908  git push -u origin main
+  909  git push -u origin mas
+  910  git push -u origin main
+  911  git branch -M main
+  912  git push -u origin main
+  913  git config --global user.name "kamalcou"
+  914  git config --global user.email "kamal.cou@gmail.com"
+  915  git push -u origin main
+  916  git push -u origin origin
+  917  git remote -v
+  918  git push -u origin origin
+  919  ps aux | grep git
+  920  kill 72435
+  921  kill 7184
+  922  kill 2240
+  923  ls /run/user/1001/vscode-git-*
+  924  cat /run/user/1001/vscode-git-b53acfabab.sock
+  925  ls -l /run/user/1001/
+  926  sudo apt update
+  927  sudo apt install --reinstall git
+  928  git status
+  929  git tree
+  930  git add .
+  931  git status
+  932  git push origin main
+  933  git config --global credential.helper cache
+  934  git push origin main
+  935  cd test_filemonitor/
+  936  cd filemonitor/
+  937  cd files
+  938  cat test1.txt 
+  939  vi test1.txt
+  940  cat test1.txt 
+  941  cd filemonitor/filemonitor/
+  942  ls
+  943  make
+  944  mv * ../
+  945  ls
+  946  mv wallet ../
+  947  ls wallet/
+  948  mkdir ../wallet
+  949  cp wallet/* ../wallet/
+  950  cd ..
+  951  make
+  952  cat /usr/local/etc/filemonitor/filemonitor.py
+  953  cp /usr/local/etc/filemonitor/filemonitor.py .
+  954  ls
+  955  sudo make all
+  956  sudo python3 filemonitor.py
+  957  git add .
+  958  ls -lrt
+  959  ls bpftool/
+  960  ls bpftool/libbpf/
+  961  sudo apt-get update
+  962  sudo apt-get install linux-headers-$(uname -r) bpfcc-tools libbpf-dev clang llvm
+  963  ls -lrt
+  964  cd bpftool
+  965  ls
+  966  cd libbpf/
+  967  ls
+  968  cd src/
+  969  ls
+  970  pwd
+  971  cd test_filemonitor/
+  972  ls
+  973  cd filemonitor/
+  974  git status
+  975  git push
+  976  git push origin HEAD
+  977  git branch -M master
+  978  git add .
+  979  git commit -m "modified readme file"
+  980  git push origin master
+  981  git add .
+  982  git commit -m "modified readme file"
+  983  git push origin master
+  984  sudo apt-get install bcc bcc-tools linux-headers-$(uname -r)
+  985  gcc -o trace_open trace_open.c -I/usr/include/bcc -l:libbcc.so -lelf -lz -lbpf
+  986  cd ../..
+  987  pwd
+  988  git clone https://github.com/lizrice/learning-ebpf.git
+  989  cd learning-ebpf/
+  990  pwd
+  991  ls
+  992  cd chap05
+  993  cd chap5
+  994  cd chapter5
+  995  ls
+  996  make
+  997  sudo apt install -y linux-tools-$(uname -r)
+  998  sudo apt install -y linux-tools-$(uname -r)
+  999  sudo apt install -y linux-tools-$(uname -r)
+ 1000  sudo apt update
+ 1001  sudo apt install -y build-essential libelf-dev libz-dev libcap-dev binutils-dev pkg-config clang
+ 1002  sudo apt install -y build-essential libelf-dev zlib1g-dev libcap-dev binutils-dev pkg-config clang
+ 1003  sudo apt install -y build-essential libelf-dev zlib1g-dev libcap-dev binutils-dev pkg-config clang
+ 1004  git clone https://github.com/libbpf/bpftool.git
+ 1005  cd bpftool
+ 1006  git submodule update --init
+ 1007  cd ..
+ 1008  make
+ 1009  ls
+ 1010  mv -rf bpftool/ ../../
+ 1011  mv bpftool/ ../../
+ 1012  make
+ 1013  make clean
+ 1014  make all
+ 1015  bpftool 
+ 1016  pwd
+ 1017  make all
+ 1018  ls ../../bpftool/libbpf/src
+ 1019  make all
+ 1020  make clean
+ 1021  make all
+ 1022  clang 
+ 1023  clang -I ../../bpftool/libbpf/src hello-buffer-config.c 
+ 1024  which *.skel.h
+ 1025  find / *.skel.h
+ 1026  find / hello-buffer-config.skel.h
+ 1027  find ~/bpftool/  hello-buffer-config.skel.h
+ 1028  clang -target bpf -I ../../bpftool/libbpf/src -c hello-buffer-config.c -o hello-buffer-config.o
+ 1029  cd filemonitor/filemonitor/
+ 1030  ls
+ 1031  cd ..
+ 1032  ls
+ 1033  sudo python3 filemonitor
+ 1034  sudo python3 filemonitor.py 
+ 1035  history > history.txt
+ 1036  ls
+ 1037  mkdir extra_files
+ 1038  mv Makefile extra_files/
+ 1039  mv config.txt extra_files/
+ 1040  mv filemonitor_backup.py extra_files/
+ 1041  mv filemonitor_backup_03_26_24.py extra_files/
+ 1042  mv -rf filemonitor extra_files/
+ 1043  mv -f filemonitor extra_files/
+ 1044  mv filemonitor.c extra_files/
+ 1045  ls
+ 1046  mv README.md extra_files/
+ 1047  mv cli.py extra_files/
+ 1048  mv filemonitor.py extra_files/
+ 1049  mv hdf5/ extra_files/
+ 1050  mv loadgen.sh extra_files/
+ 1051  mv __pycache__/ extra_files/
+ 1052  ls
+ 1053  mv filemonitor_unused.py extra_files/
+ 1054  mv run.sh extra_files/
+ 1055  ls
+ 1056  cd grpc/examples/python/helloworld/
+ 1057  ls
+ 1058  sudo python3 filemonitor.py
+ 1059  source ../../../../venv/bin/activate
+ 1060  ./client_script.sh filemonitor.py
+ 1061  pip install --upgrade protobuf
+ 1062  ./client_script.sh filemonitor.py
+ 1063  sudo python3 filemonitor.py 
+ 1064  cd filemonitor/
+ 1065  cd hhf5
+ 1066  cd hdf5
+ 1067  ls
+ 1068  mpirun -n 2 file_write 1 1024
+ 1069  cd /usr/lib/python3/dist-packages/google/protobuf/internal/
+ 1070  ls
+ 1071  cat proto_builder_test.py
+ 1072  cp proto_builder_test.py ~/Documents/
+ 1073  pip install protobuf==3.19.4
+ 1074  cp ~/Documents/proto_builder_test.py . 
+ 1075  mv proto_builder_test.py proto_builder_test1.py 
+ 1076  sudo mv proto_builder_test.py proto_builder_test1.py 
+ 1077  cp ~/Documents/proto_builder_test.py . 
+ 1078  sudo cp ~/Documents/proto_builder_test.py . 
+ 1079  cd filemonitor/grpc/examples/python/helloworld/
+ 1080  source ../../../../venv/bin/activat
+ 1081  source ../../../../venv/bin/activate
+ 1082  sudo python3 filemonitor.py 
+ 1083  pip install google
+ 1084  python3 -m pip install --upgrade pip
+ 1085  pip install google
+ 1086  pip install protobuf
+ 1087  sudo python3 filemonitor.py 
+ 1088  ./client_script.sh filemonitor.py
+ 1089  sudo ./client_script.sh filemonitor.py
+ 1090  cd filemonitor/hdf5
+ 1091  ls
+ 1092  cat experiment_2.sh
+ 1093  mpirun -n 2 file_read
+ 1094  mpirun -n 1 file_write
+ 1095  mpirun -n 1 file_write 1 1024
+ 1096  cd filemonitor/grpc/examples/python/helloworld/
+ 1097  ls
+ 1098  source ../../../../venv/bin/activate
+ 1099  sudo python3 filemonitor.py 
+ 1100  make
+ 1101  sudo python3 filemonitor.py 
+ 1102  python3 -m venv grpc_env
+ 1103  source grpc_env/bin/activate
+ 1104  pip install protobuf grpcio
+ 1105  sudo python3 filemonitor.py 
+ 1106  ls -lrt
+ 1107  sudo python3 filemonitor.py 
+ 1108  make
+ 1109  sudo python3 filemonitor.py 
+ 1110  ls
+ 1111  cd filemonitor/
+ 1112  ls
+ 1113  cd hdf5
+ 1114  ls
+ 1115  mpirun -n 2 file_read
+ 1116  mpirun -n 1 file_read
+ 1117  cd filemonitor/grpc/examples/python/helloworld/
+ 1118  history >> history.txt

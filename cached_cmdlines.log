@@ -1,0 +1,6 @@
+[2025-05-22 02:11:52] PID 3026171: mpirun -np 16 apptainer run --bind result:/opt/result miniamr_latest.sif /opt/miniAMR/openmp/miniAMR.x --max_blocks 6000 --num_refine 4 --init_x 1 --init_y 1 --init_z 1 --npx 4 --npy 2 --npz 2 --nx 8 --ny 8 --nz 8 --num_objects 1 --object 2 0 -0.01 -0.01 -0.01 0.0 0.0 0.0 0.0 0.0 0.0 0.0009 0.0009 0.0009 --num_tsteps 200 --comm_vars 2
+[2025-05-22 02:12:17] PID 3033125: [Exited]
+[2025-05-22 03:03:08] PID 3058629: mpirun -np 16 apptainer run --bind result:/opt/result miniamr_latest.sif /opt/miniAMR/openmp/miniAMR.x --max_blocks 6000 --num_refine 4 --init_x 1 --init_y 1 --init_z 1 --npx 4 --npy 2 --npz 2 --nx 8 --ny 8 --nz 8 --num_objects 1 --object 2 0 -0.01 -0.01 -0.01 0.0 0.0 0.0 0.0 0.0 0.0 0.0009 0.0009 0.0009 --num_tsteps 200 --comm_vars 2
+[2025-05-22 03:03:35] PID 3065776: [Exited]
+[2025-05-22 03:09:20] PID 3091901: mpirun -np 16 apptainer run --bind result:/opt/result miniamr_latest.sif /opt/miniAMR/openmp/miniAMR.x --max_blocks 6000 --num_refine 4 --init_x 1 --init_y 1 --init_z 1 --npx 4 --npy 2 --npz 2 --nx 8 --ny 8 --nz 8 --num_objects 1 --object 2 0 -0.01 -0.01 -0.01 0.0 0.0 0.0 0.0 0.0 0.0 0.0009 0.0009 0.0009 --num_tsteps 200 --comm_vars 2
+[2025-05-22 03:09:46] PID 3099937: [Exited]
