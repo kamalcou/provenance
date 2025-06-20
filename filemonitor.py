@@ -345,7 +345,9 @@ def submitTransaction(filename, mode,sessionid,pid,username,timestamp1,timestamp
     # quoted_string = shlex.quote(str)
     # command = f"/bin/bash client_script.sh '{quoted_string}'"
    
-    cmd=f"/bin/bash client_script.sh '{str}'" 
+    quoted_str = shlex.quote(str)
+    cmd = f"/bin/bash client_script.sh {quoted_str}"
+
     # print(cmd)
     # os.system('/bin/bash client_script.sh str')
     os.system(cmd)
